@@ -11,30 +11,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e63fe28-9b26-4a94-aca9-eef23b911e5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/packages/api_platform.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/nelmio_cors.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/validator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/validator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/api_platform.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20201022112655.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Transaction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/TransactionRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20201027094149.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/TestController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataPersister/UserDataPersister.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Transaction.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Transaction.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -145,7 +138,13 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\KASSE1\Desktop\normalize-test\src" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -155,7 +154,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603365409539</updated>
-      <workItem from="1603365410963" duration="1022000" />
+      <workItem from="1603365410963" duration="3461000" />
+      <workItem from="1603790864396" duration="1000000" />
     </task>
     <servers />
   </component>
@@ -172,6 +172,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -181,5 +182,21 @@
       <screen x="-1920" y="0" width="1920" height="1160" />
     </state>
     <state x="-1150" y="457" key="#Composer/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1603365442049" />
+    <state x="-1156" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1603791336157">
+      <screen x="-1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="-1156" y="248" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1603791336157" />
+    <state x="-791" y="125" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603791353305">
+      <screen x="-1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="-791" y="125" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1603791353305" />
+    <state x="-1126" y="499" key="NewPhpFileDialog" timestamp="1603791316389">
+      <screen x="-1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="-1126" y="499" key="NewPhpFileDialog/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1603791316389" />
+    <state x="-1297" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1603791651878">
+      <screen x="-1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="-1297" y="255" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1603791651878" />
   </component>
 </project>

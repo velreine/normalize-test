@@ -21,13 +21,13 @@ class Transaction
    * @ORM\Column(type="integer")
    * @Groups({"transaction:read"})
    */
-  private $id;
+  private ?int $id = null;
 
   /**
    * @ORM\Column(type="float")
    * @Groups({"transaction:read"})
    */
-  private $amount;
+  private ?float $amount = null;
 
   public function getId(): ?int
   {
