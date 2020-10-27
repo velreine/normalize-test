@@ -134,6 +134,13 @@ class User implements UserInterface
   public function eraseCredentials()
   {
     // If you store any temporary, sensitive data on the user, clear it here
-    // $this->plainPassword = null;
+    $this->plainPassword = null;
+  }
+
+  /**
+   * @Groups({"user:read"})
+   */
+  public function getCalculatedField(): int {
+    return 5*5;
   }
 }
